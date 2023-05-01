@@ -2,7 +2,7 @@ const keyRows = [
   {
     keys: [
       {
-        classes: ['secondary__key', 'Backquote'],
+        classes: ['Backquote', 'secondary__key'],
         en: {
           lowerCase: '`',
           upperCase: '~',
@@ -17,7 +17,7 @@ const keyRows = [
         },
       },
       {
-        classes: ['primary__key', 'digit', 'Digit1'],
+        classes: ['Digit1', 'primary__key', 'digit'],
         en: {
           lowerCase: '1',
           upperCase: '!',
@@ -32,7 +32,7 @@ const keyRows = [
         },
       },
       {
-        classes: ['primary__key', 'digit', 'Digit2'],
+        classes: ['Digit2', 'primary__key', 'digit'],
         en: {
           lowerCase: '2',
           upperCase: '@',
@@ -47,7 +47,7 @@ const keyRows = [
         },
       },
       {
-        classes: ['primary__key', 'digit', 'Digit3'],
+        classes: ['Digit3', 'primary__key', 'digit'],
         en: {
           lowerCase: '3',
           upperCase: '#',
@@ -62,7 +62,7 @@ const keyRows = [
         },
       },
       {
-        classes: ['primary__key', 'digit', 'Digit3'],
+        classes: ['Digit4', 'primary__key', 'digit'],
         en: {
           lowerCase: '4',
           upperCase: '$',
@@ -77,7 +77,7 @@ const keyRows = [
         },
       },
       {
-        classes: ['primary__key', 'digit', 'Digit5'],
+        classes: ['Digit5', 'primary__key', 'digit'],
         en: {
           lowerCase: '5',
           upperCase: '%',
@@ -92,7 +92,7 @@ const keyRows = [
         },
       },
       {
-        classes: ['primary__key', 'digit', 'Digit6'],
+        classes: ['Digit6', 'primary__key', 'digit'],
         en: {
           lowerCase: '6',
           upperCase: '^',
@@ -107,7 +107,7 @@ const keyRows = [
         },
       },
       {
-        classes: ['primary__key', 'digit', 'Digit7'],
+        classes: ['Digit7', 'primary__key', 'digit'],
         en: {
           lowerCase: '7',
           upperCase: '&',
@@ -122,7 +122,7 @@ const keyRows = [
         },
       },
       {
-        classes: ['primary__key', 'digit', 'Digit8'],
+        classes: ['Digit8', 'primary__key', 'digit'],
         en: {
           lowerCase: '8',
           upperCase: '*',
@@ -137,7 +137,7 @@ const keyRows = [
         },
       },
       {
-        classes: ['primary__key', 'digit', 'Digit9'],
+        classes: ['Digit9', 'primary__key', 'digit'],
         en: {
           lowerCase: '9',
           upperCase: '(',
@@ -152,7 +152,7 @@ const keyRows = [
         },
       },
       {
-        classes: ['primary__key', 'digit', 'Digit0'],
+        classes: ['Digit0', 'primary__key', 'digit'],
         en: {
           lowerCase: '0',
           upperCase: ')',
@@ -167,7 +167,7 @@ const keyRows = [
         },
       },
       {
-        classes: ['primary__key', 'Minus'],
+        classes: ['Minus', 'primary__key'],
         en: {
           lowerCase: '-',
           upperCase: '_',
@@ -182,7 +182,7 @@ const keyRows = [
         },
       },
       {
-        classes: ['primary__key', 'Equal'],
+        classes: ['Equal', 'primary__key'],
         en: {
           lowerCase: '=',
           upperCase: '+',
@@ -197,7 +197,7 @@ const keyRows = [
         },
       },
       {
-        classes: ['secondary__key', 'Backspace'],
+        classes: ['Backspace', 'secondary__key'],
         en: {
           lowerCase: 'Backspace',
           upperCase: 'Backspace',
@@ -386,6 +386,423 @@ const keyRows = [
         ru: {
           lowerCase: 'Del',
           upperCase: 'Del',
+        },
+      },
+    ],
+  },
+  {
+    keys: [
+      {
+        classes: ['CapsLock', 'secondary__key'],
+        en: {
+          lowerCase: 'CapsLock',
+          upperCase: 'CapsLock',
+        },
+        ru: {
+          lowerCase: 'CapsLock',
+          upperCase: 'CapsLock',
+        },
+      },
+      {
+        classes: ['KeyA', 'primary__key'],
+        en: {
+          lowerCase: 'a',
+          upperCase: 'A',
+        },
+        ru: {
+          lowerCase: 'ф',
+          upperCase: 'Ф',
+        },
+      },
+      {
+        classes: ['KeyS', 'primary__key'],
+        en: {
+          lowerCase: 's',
+          upperCase: 'S',
+        },
+        ru: {
+          lowerCase: 'ы',
+          upperCase: 'Ы',
+        },
+      },
+      {
+        classes: ['KeyD', 'primary__key'],
+        en: {
+          lowerCase: 'd',
+          upperCase: 'D',
+        },
+        ru: {
+          lowerCase: 'в',
+          upperCase: 'В',
+        },
+      },
+      {
+        classes: ['KeyF', 'primary__key'],
+        en: {
+          lowerCase: 'f',
+          upperCase: 'F',
+        },
+        ru: {
+          lowerCase: 'а',
+          upperCase: 'А',
+        },
+      },
+      {
+        classes: ['KeyG', 'primary__key'],
+        en: {
+          lowerCase: 'g',
+          upperCase: 'G',
+        },
+        ru: {
+          lowerCase: 'п',
+          upperCase: 'П',
+        },
+      },
+      {
+        classes: ['KeyH', 'primary__key'],
+        en: {
+          lowerCase: 'h',
+          upperCase: 'H',
+        },
+        ru: {
+          lowerCase: 'р',
+          upperCase: 'Р',
+        },
+      },
+      {
+        classes: ['KeyJ', 'primary__key'],
+        en: {
+          lowerCase: 'j',
+          upperCase: 'J',
+        },
+        ru: {
+          lowerCase: 'о',
+          upperCase: 'О',
+        },
+      },
+      {
+        classes: ['KeyK', 'primary__key'],
+        en: {
+          lowerCase: 'k',
+          upperCase: 'K',
+        },
+        ru: {
+          lowerCase: 'л',
+          upperCase: 'Л',
+        },
+      },
+      {
+        classes: ['KeyL', 'primary__key'],
+        en: {
+          lowerCase: 'l',
+          upperCase: 'L',
+        },
+        ru: {
+          lowerCase: 'д',
+          upperCase: 'Д',
+        },
+      },
+      {
+        classes: ['Semicolon', 'primary__key'],
+        en: {
+          caps: ';',
+          lowerCase: ';',
+          upperCase: ':',
+          shiftCaps: ':',
+        },
+        ru: {
+          caps: 'Ж',
+          lowerCase: 'ж',
+          upperCase: 'Ж',
+          shiftCaps: 'ж',
+        },
+      },
+      {
+        classes: ['Quote', 'primary__key'],
+        en: {
+          caps: "'",
+          lowerCase: "'",
+          upperCase: '"',
+          shiftCaps: '"',
+        },
+        ru: {
+          caps: 'Э',
+          lowerCase: 'э',
+          upperCase: 'Э',
+          shiftCaps: 'э',
+        },
+      },
+      {
+        classes: ['Enter', 'secondary__key'],
+        en: {
+          lowerCase: 'Enter',
+          upperCase: 'Enter',
+        },
+        ru: {
+          lowerCase: 'Enter',
+          upperCase: 'Enter',
+        },
+      },
+    ],
+  },
+  {
+    keys: [
+      {
+        classes: ['ShiftLeft', 'secondary__key'],
+        en: {
+          lowerCase: 'Shift',
+          upperCase: 'Shift',
+        },
+        ru: {
+          lowerCase: 'Shift',
+          upperCase: 'Shift',
+        },
+      },
+      {
+        classes: ['KeyZ', 'primary__key'],
+        en: {
+          lowerCase: 'z',
+          upperCase: 'Z',
+        },
+        ru: {
+          lowerCase: 'я',
+          upperCase: 'Я',
+        },
+      },
+      {
+        classes: ['KeyX', 'primary__key'],
+        en: {
+          lowerCase: 'x',
+          upperCase: 'X',
+        },
+        ru: {
+          lowerCase: 'ч',
+          upperCase: 'Ч',
+        },
+      },
+      {
+        classes: ['KeyC', 'primary__key'],
+        en: {
+          lowerCase: 'c',
+          upperCase: 'C',
+        },
+        ru: {
+          lowerCase: 'с',
+          upperCase: 'С',
+        },
+      },
+      {
+        classes: ['KeyV', 'primary__key'],
+        en: {
+          lowerCase: 'v',
+          upperCase: 'V',
+        },
+        ru: {
+          lowerCase: 'м',
+          upperCase: 'М',
+        },
+      },
+      {
+        classes: ['KeyB', 'primary__key'],
+        en: {
+          lowerCase: 'b',
+          upperCase: 'B',
+        },
+        ru: {
+          lowerCase: 'и',
+          upperCase: 'И',
+        },
+      },
+      {
+        classes: ['KeyN', 'primary__key'],
+        en: {
+          lowerCase: 'n',
+          upperCase: 'N',
+        },
+        ru: {
+          lowerCase: 'т',
+          upperCase: 'Т',
+        },
+      },
+      {
+        classes: ['KeyM', 'primary__key'],
+        en: {
+          lowerCase: 'm',
+          upperCase: 'M',
+        },
+        ru: {
+          lowerCase: 'ь',
+          upperCase: 'Ь',
+        },
+      },
+      {
+        classes: ['Comma', 'primary__key'],
+        en: {
+          caps: ',',
+          lowerCase: ',',
+          upperCase: '<',
+          shiftCaps: '<',
+        },
+        ru: {
+          caps: 'Б',
+          lowerCase: 'б',
+          upperCase: 'Б',
+          shiftCaps: 'б',
+        },
+      },
+      {
+        classes: ['Period', 'primary__key'],
+        en: {
+          caps: '.',
+          lowerCase: '.',
+          upperCase: '>',
+          shiftCaps: '>',
+        },
+        ru: {
+          caps: 'Ю',
+          lowerCase: 'ю',
+          upperCase: 'Ю',
+          shiftCaps: 'ю',
+        },
+      },
+      {
+        classes: ['Slash', 'primary__key'],
+        en: {
+          caps: '/',
+          lowerCase: '/',
+          upperCase: '?',
+          shiftCaps: '?',
+        },
+        ru: {
+          caps: '.',
+          lowerCase: '.',
+          upperCase: ',',
+          shiftCaps: ',',
+        },
+      },
+      {
+        classes: ['ArrowUp', 'secondary__key'],
+        en: {
+          lowerCase: '▲',
+          upperCase: '▲',
+        },
+        ru: {
+          lowerCase: '▲',
+          upperCase: '▲',
+        },
+      },
+      {
+        classes: ['ShiftRight', 'secondary__key'],
+        en: {
+          lowerCase: 'Shift',
+          upperCase: 'Shift',
+        },
+        ru: {
+          lowerCase: 'Shift',
+          upperCase: 'Shift',
+        },
+      },
+    ],
+  },
+  {
+    keys: [
+      {
+        classes: ['ControlLeft', 'secondary__key'],
+        en: {
+          lowerCase: 'Ctrl',
+          upperCase: 'Ctrl',
+        },
+        ru: {
+          lowerCase: 'Ctrl',
+          upperCase: 'Ctrl',
+        },
+      },
+      {
+        classes: ['MetaLeft', 'secondary__key'],
+        en: {
+          lowerCase: 'Win',
+          upperCase: 'Win',
+        },
+        ru: {
+          lowerCase: 'Win',
+          upperCase: 'Win',
+        },
+      },
+      {
+        classes: ['AltLeft', 'secondary__key'],
+        en: {
+          lowerCase: 'Alt',
+          upperCase: 'Alt',
+        },
+        ru: {
+          lowerCase: 'Alt',
+          upperCase: 'Alt',
+        },
+      },
+      {
+        classes: ['Space', 'primary__key'],
+        en: {
+          lowerCase: ' ',
+          upperCase: ' ',
+        },
+        ru: {
+          lowerCase: ' ',
+          upperCase: ' ',
+        },
+      },
+      {
+        classes: ['AltRight', 'secondary__key'],
+        en: {
+          lowerCase: 'Alt',
+          upperCase: 'Alt',
+        },
+        ru: {
+          lowerCase: 'Alt',
+          upperCase: 'Alt',
+        },
+      },
+      {
+        classes: ['ArrowLeft', 'secondary__key'],
+        en: {
+          lowerCase: '◄',
+          upperCase: '◄',
+        },
+        ru: {
+          lowerCase: '◄',
+          upperCase: '◄',
+        },
+      },
+      {
+        classes: ['ArrowDown', 'secondary__key'],
+        en: {
+          lowerCase: '▼',
+          upperCase: '▼',
+        },
+        ru: {
+          lowerCase: '▼',
+          upperCase: '▼',
+        },
+      },
+      {
+        classes: ['ArrowRight', 'secondary__key'],
+        en: {
+          lowerCase: '►',
+          upperCase: '►',
+        },
+        ru: {
+          lowerCase: '►',
+          upperCase: '►',
+        },
+      },
+      {
+        classes: ['ControlRight', 'secondary__key'],
+        en: {
+          lowerCase: 'Ctrl',
+          upperCase: 'Ctrl',
+        },
+        ru: {
+          lowerCase: 'Ctrl',
+          upperCase: 'Ctrl',
         },
       },
     ],
