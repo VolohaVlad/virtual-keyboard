@@ -28,6 +28,15 @@
       user-select: none;
       transition: border-radius 0.3s, background-color 0.3s;
 
+      .ru,
+      .en {
+        display: block;
+
+        &.hidden {
+            display: hidden;
+        }
+      }
+
       &.active {
         background-color: #2cfd72;
         border-radius: 50px;
@@ -44,10 +53,37 @@
       &.secondary__key {
         font-weight: 600;
         background-color: #222222;
+
+        &:hover {
+          background: #79aa89;
+        }
+
+        &.active {
+          background-color: #2cfd72;
+        }
       }
 
-      &.backspace {
+      &.Backspace,
+      &.CapsLock,
+      &.ShiftLeft {
         width: 100px;
+      }
+
+      &.Enter,
+      &.ShiftRight {
+        width: 86px;
+      }
+
+      &.Delete {
+        width: 44px;
+      }
+
+      &.Tab {
+        width: 50px;
+      }
+
+      &.Space {
+        width: 330px;
       }
     }
   }

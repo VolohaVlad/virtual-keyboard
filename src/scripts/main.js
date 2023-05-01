@@ -10,7 +10,7 @@ export default function createMain() {
   header.innerHTML = 'RSS Виртуальная клавиатура';
 
   const textarea = createTextarea();
-  const keyboard = createKeyboard();
+  const keyboard = createKeyboard(textarea);
   const annotation = createAnnotation();
 
   main.append(header, textarea, keyboard, annotation);
